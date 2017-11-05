@@ -96,6 +96,7 @@ public class MethodDemo4 {
 메소드 numbering의 괄호 안에 위치한 숫자 5는 이 메소드가 호출될 때 limit이라는 변수의 값이 된다. 이 값은 메소드 numbering의 중괄호 안에서만 사용할 수 있다.
 
 위의 코드는 아래와 같다.
+
 ```java
 public static void numbering() {
     int limit = 5;
@@ -226,6 +227,7 @@ public class ReturnDemo {
 위의 코드는 컴파일조차 되지 않는다. 왜냐하면, return 은 메소드를 종료시키는 역할을 하므로 return이 처음 등장한 이후의 구문은 실행되지 않기 때문이다.
 
 하지만 아래의 예제는 문제가 전혀 없다.
+
 ```java
 public class ReturnDemo2 {
     public static String num(int i) {

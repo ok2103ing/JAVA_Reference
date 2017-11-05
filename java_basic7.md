@@ -86,6 +86,7 @@ public class Scanner2Demo {
 sc.hasNextInt()는 입력값이 생기기 전까지 실행을 유보시키는 역할을 한다. 만약 입력한 값이 int 형이 아닐 경우는 false를 리턴하고, int로 표현할 수 있는 형식의 숫자형인 경우는 true를 리턴한다. 따라서 위의 코드는 사용자가 입력을 할 때가지 실행을 기다렸다가 입력이 일어나면 반복문이 동작하면서 입력값의 1000배를 곱한 수가 출력된다. 
 
 아래 예제는 out.txt라는 **파일을 입력 받아서 화면에 출력하는 예를 보여주고 있다.**
+
 ```java
 import java.util.Scanner;
 import java.io.*;
