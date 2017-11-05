@@ -1,6 +1,6 @@
-#반복문
+<h1>반복문</h1>
 
-###while
+<h3>while</h3>
 
 ```java
 	while(조건){
@@ -8,7 +8,7 @@
     }
 ```
 
-###do ~ while
+<h3>do ~ while</h3>
 ```java
 	do{
     	한번 실행되는 구문
@@ -18,7 +18,7 @@
     }
 ```
 
-###for
+<h3>for</h3>
 
 ```java
 	for(초기화; 종료조건; 반복실행){
@@ -26,7 +26,7 @@
     }
 ```
 
-###반복문의 제어
+<h3>반복문의 제어</h3>
 반복작업을 중간에 중단시키고 싶은경우
 
 ```java
@@ -59,7 +59,7 @@ Coding Everybody 8
 Coding Everybody 9
 ```
 
-###반복문의 중첩
+<h3>반복문의 중첩</h3>
 ```java
 for (int i = 0; i < 10; i++) {
     for (int j = 0; j < 10; j++) {
